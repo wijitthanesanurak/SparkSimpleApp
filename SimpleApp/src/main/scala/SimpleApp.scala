@@ -14,6 +14,7 @@ object SimpleApp {
     val numBs = logData.filter(line=>line.contains("b")).count()
     
     
+    
     println("Lines with a: %s, Lines with b: %s".format(numAs, numBs))
     
   }
